@@ -1,0 +1,28 @@
+{
+  "name": "maksymshymon.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel",
+    "start": "npm run parcel src/index.html",
+    "build": "npm run parcel build src/index.html",
+    "release": "node publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksymshymon/maksymshymon.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksymshymon/maksymshymon.github.io/issues"
+  },
+  "homepage": "https://github.com/maksymshymon/maksymshymon.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel": "^1.12.4"
+  }
+}

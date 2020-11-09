@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#footerID{
+	background-color: #111111;
+	height: 15pt;
+	font-family: Arial;
+	color: red;
+	font-size: 33pt;
+}
